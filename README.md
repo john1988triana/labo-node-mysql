@@ -3,9 +3,9 @@
 Mini laboratorio de un proyecto REST API con CRUD completo de [NodeJs](https://nodejs.org/es/) con [ExpressJs](https://expressjs.com/es/) y Base de datos 
 relacional con [MySQL](https://www.mysql.com/).
 
-* * *
+
 ## 1. Antes de empezar
-* * *
+
 ### Base de datos
 
 Configurar de la base de datos en el servidor local de MySQL.
@@ -39,18 +39,18 @@ Para ejecutar en modo dev:
 Para ejecutar en modo prod:
 ### `npm run start`
 
-* * *
+
 ## 2. Probar Rest API
-* * *
+
 
 Podemos probar nuestro CRUD Rest API de dos formas:
 
 1. A través de Postman en el cual es exportar el archivo que esta en la siguiente ruta `./docu/Prueba-Tutoria.postman_collection.json`
 2. También lo podemos probar en el VSCode con una extensión llamada **Rest Client** y abrimos nuestro archivo .http `./docu/rest-api.http` y ejecutamos cada request.
 
-* * *
+
 ## 3. Dependencias utilizadas
-* * *
+
 
 Una breve explicación de las depedencias utilizadas para nuestra aplicación:
 
