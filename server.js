@@ -1,16 +1,21 @@
-'use strict'
+"use strict";
 
-const express = require('express');
-const cors = require('cors');
-const { App } = require('./src/utils/config');
-const router = require('./src/routers');
+// Declaramos express y cors
+const express = require("express");
+const cors = require("cors");
+// Llamamos nuestras variables
+const { App } = require("./src/utils/config");
+// Llamamos nuestra config principal de las rutas
+const router = require("./src/routers");
 
-const app = express()
+const app = express();
 
-app.use(cors())
-app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
-app.use('/api', router)
+// Indicamos que nuestra ruta empieza por /api
+app.use("/api", router);
 
-app.listen(App.PORT, () => console.log(`Listening on port ${App.PORT}`))
+// Levantamos nuestro puerto indicado en el config
+app.listen(App.PORT, () => console.log(`Listening on port ${App.PORT}`));
