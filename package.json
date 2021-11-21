@@ -7,7 +7,7 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "author": "Grupo 29",
+  "author": "John Fredy Triana Camacho",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
